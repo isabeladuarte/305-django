@@ -1,0 +1,29 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Osasco</title>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'style.css'%}">
+
+</head>
+<body>
+    <nav>
+        <a href="">Cachorro Quente</a>
+        <a href="/pombos">Pombos</a>
+        <a href="/">Seja assaltado</a>
+        <a href="/rolezinho">Rolezinho</a>
+    </nav>
+
+    {% block content %}
+
+    {% endblock%}
+
+    <footer>
+        <p>Cuidado com o assalto, cuidado com os cara na moto </p>
+    </footer>
+</body>
+</html>

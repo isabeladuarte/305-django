@@ -1,0 +1,15 @@
+body{
+    margin:0;
+    background-color: grey;
+}
+h1,h2{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size:16pt;
+} 
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    height: 35px;
+}
